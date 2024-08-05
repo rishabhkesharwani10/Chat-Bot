@@ -1,2 +1,3 @@
-# Chat-Bot
-Chatbot using Watsonx
+## Chatbot using Watsonx
+
+https://tahahameed23.github.io/chatbot-watsonx/

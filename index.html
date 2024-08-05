@@ -1,0 +1,138 @@
+<html lang="en">
+<!-- Website template taken from IBM -->
+
+<head>
+	<base href="/">
+	<title>Open Financial Bank - Chatbo t</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:image" content="conversation.svg" />
+	<meta property="og:title" content="Conversation Chat Simple" />
+	<meta property="og:description"
+		content="Sample application that shows how to use the Conversation API to identify user intents" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/app.css">
+	<style type="text/css">
+		body {
+			padding-top: 3.5rem;
+		}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<a class="navbar-brand" href="#">Open Financial Bank</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+			aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About Us</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">Services</a>
+					<div class="dropdown-menu" aria-labelledby="dropdown01">
+						<a class="dropdown-item" href="#">Banking</a>
+						<a class="dropdown-item" href="#">Investment</a>
+						<a class="dropdown-item" href="#">Home Loan</a>
+					</div>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+			<ul class="navbar-nav navbar-right">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Login</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Register</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<main role="main">
+
+		<div class="jumbotron">
+			<div class="container">
+				<h1 class="display-3">Welcome to Open Financial Bank</h1>
+				<p>We provide extensive services from retail banking, investment, home loan, auto loan and many more</p>
+				<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+			</div>
+		</div>
+
+		<div class="container">
+			<!-- Example row of columns -->
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Banking</h2>
+					<p>Open Financial Bank provide retail and online banking. It offers all kinds of accounts from
+						checking, saving,
+						and bussiness accounts
+					</p>
+					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+				</div>
+				<div class="col-md-4">
+					<h2>Investment</h2>
+					<p>Open Financial Bank also provides investment opportunity to clients. It has huge basket of
+						various stocks and bonds. </p>
+					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+				</div>
+				<div class="col-md-4">
+					<h2>Loan</h2>
+					<p>Open Financial Bank also helps you find loan for personal, home and auto. We provide best rate
+						and beat the rate thats out in the market.</p>
+					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+				</div>
+			</div>
+
+			<hr>
+
+		</div> <!-- /container -->
+
+	</main>
+
+	<footer class="container">
+		<p>&copy; Open Financial Bank 2024</p>
+		<a href="https://github.com/TahaHameed23/chatbot-watsonx">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40px" height="64px">
+				<path
+					d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 0-.975.325-2.275.325-3.637 0-5.148-3.245-5.525-4.875-.229-.993-.827-1.934-1.469-2.509-.767-.684-1.126-.686-1.131-.92-.01-.491.658-.471.975-.471 1.625 0 2.857 1.729 3.429 2.623 1.417 2.207 2.938 2.577 3.721 2.577.975 0 1.817-.146 2.397-.426.268-1.888 1.108-3.57 2.478-4.774-6.097-1.219-10.4-4.716-10.4-10.4 0-2.928 1.175-5.619 3.133-7.792C19.333 23.641 19 22.494 19 20.625c0-1.235.086-2.751.65-4.225 0 0 3.708.026 7.205 3.338C28.469 19.268 30.196 19 32 19s3.531.268 5.145.738c3.497-3.312 7.205-3.338 7.205-3.338.567 1.474.65 2.99.65 4.225 0 2.015-.268 3.19-.432 3.697C46.466 26.475 47.6 29.124 47.6 32c0 5.684-4.303 9.181-10.4 10.4 1.628 1.43 2.6 3.513 2.6 5.85v8.557c-.576.181-1.162.338-1.755.479C49.488 54.56 58 44.277 58 32 58 17.641 46.359 6 32 6zM33.813 57.93C33.214 57.972 32.61 58 32 58 32.61 58 33.213 57.971 33.813 57.93zM37.786 57.346c-1.164.265-2.357.451-3.575.554C35.429 57.797 36.622 57.61 37.786 57.346zM32 58c-.61 0-1.214-.028-1.813-.07C30.787 57.971 31.39 58 32 58zM29.788 57.9c-1.217-.103-2.411-.289-3.574-.554C27.378 57.61 28.571 57.797 29.788 57.9z" />
+			</svg>
+		</a>
+	</footer>
+
+	<script>
+		window.watsonAssistantChatOptions = {
+			integrationID: "23820ceb-5479-481a-b74b-aa18f471a3d0", // The ID of this integration.
+			region: "au-syd", // The region your integration is hosted in.
+			serviceInstanceID: "bdb96168-2199-4f01-b4bc-3e7bd5bad112", // The ID of your service instance.
+			onLoad: async (instance) => { await instance.render(); }
+		};
+		setTimeout(function () {
+			const t = document.createElement('script');
+			t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+			document.head.appendChild(t);
+		});
+	</script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>
